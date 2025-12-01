@@ -22,7 +22,7 @@ jobs:
 
       - uses: actionhippie/ansible-galaxy@v1
         with:
-          api_key: ${{ secrets.GALAXY_API_KEY }}
+          token: ${{ secrets.GALAXY_API_KEY }}
 ```
 
 ## Inputs
