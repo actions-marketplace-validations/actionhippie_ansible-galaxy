@@ -102,8 +102,8 @@
                         "files": [
                             "action.yml"
                         ],
-                        "from": "docker://ghcr.io/actionhippie/ansible-galaxy:.*",
-                        "to": "docker://ghcr.io/actionhippie/ansible-galaxy:${nextRelease.version}",
+                        "from": "'docker://ghcr.io/actionhippie/ansible-galaxy:.*'",
+                        "to": "'docker://ghcr.io/actionhippie/ansible-galaxy:${nextRelease.version}'",
                         "results": [
                             {
                                 "file": "action.yml",
